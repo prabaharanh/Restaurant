@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kavik</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="contact_time">Call Us from Mon to Fri  between 12 pm to 10 pm</string>
+    <string name="admin_profile">For Admin, Click here !!!!</string>
+    <string name="about_us">" Quaint and comfortable, Kavik Restaurant, Auckland is one of those rare spaces that is as intimate as it is spacious. Main Bar The largest space at Restaurant. Perfect for a large birthday or celebration while still retaining that personal and private touch Big screen TV for all your favourite sporting occasions; Stage and PA upon request; Accommodates 12-15 people for Lunch and Dinner The Dining Floor A private space perfect for a seated meal or reception. With the choice of 5 different menu options or we can tailor a menu that suits your own budget or requirements. Private area Big screen TV for all your favourite sporting occasions Accommodates 4 to 5 people for a seated meal The Conservatory With a private outdoor area and smoking facilities, The Conservatory is perfect for quiet drinks with friends or that notso-large birthday celebration. Big screen TV for all your favourite sporting occasions Outdoor heating Smoking area Accommodates 3 people for Dinner"</string>
+    <string name="developer_string">©2018, developed by Prabaharan Haridass, pharidass@outlook.com, Click for more info</string>
+    <string name="developer_string1">©2018, developed by Prabaharan Haridass, pharidass@outlook.com</string>
+    <string name="about_information">This Mobile Application is Developed by Prabaharan Haridass student os Auckland Institute of Studies, New Zealand, for Kavik Restaurant"</string>
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

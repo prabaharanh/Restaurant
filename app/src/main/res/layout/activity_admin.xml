@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/developer"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="#AA000000"
+        app:srcCompat="@drawable/kavikcolor" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:gravity="center"
+        android:text="Welcome Admin"
+        android:textColor=" #D9AC7F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSearchMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#AA000000"
+                android:text="Search Menu"
+                android:textColor=" #D9AC7F"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <EditText
+                        android:id="@+id/etsearchId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint=" Enter Menu id"
+                        android:inputType="textPersonName"
+                        android:textColorHint="#D9AC7F" />
+                <Button
+                    android:id="@+id/btnSearchmenulist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="#AA000000"
+                    android:text="Search Menu"
+                    android:textColor=" #D9AC7F"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddmenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#AA000000"
+                android:text="Add Menu"
+                android:textColor=" #D9AC7F"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutAddmenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#AA000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/etmenuId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint=" Enter Menu id"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#D9AC7F" />
+
+                <EditText
+                    android:id="@+id/etmenuName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Menu Name"
+                    android:inputType="textPersonName"
+                    android:textColor="#D9AC7F"
+                    android:textColorHint="#D9AC7F" />
+
+                <EditText
+                    android:id="@+id/etmenuDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Menu Description"
+                    android:inputType="textPersonName"
+                    android:textColor="#D9AC7F"
+                    android:textColorHint="#D9AC7F" />
+
+                <EditText
+                    android:id="@+id/etmenuPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Price"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textColor="#D9AC7F"
+                    android:textColorHint="#D9AC7F" />
+
+                <EditText
+                    android:id="@+id/etmenuType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter menu Type"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textColor="#D9AC7F"
+                    android:textColorHint="#D9AC7F" />
+
+                <Button
+                    android:id="@+id/btnAddmenuitem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AA000000"
+                    android:text="Add Menu"
+                    android:textColor="#D9AC7F" />
+                <Button
+                    android:id="@+id/btnUpdatemenuitem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AA000000"
+                    android:text="Update Menu"
+                    android:textColor="#D9AC7F" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btntblSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#AA000000"
+                android:text="Table Booking List"
+                android:textColor=" #D9AC7F"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#AAFFFFFF"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

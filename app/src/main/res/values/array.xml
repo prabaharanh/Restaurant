@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+            <item>2</item>
+            <item>4</item>
+            <item>8</item>
+            <item>12</item>
+    </string-array>
+    <string-array name="spinnerSubjects">
+        <item>Order Food</item>
+        <item>Table Booking</item>
+        <item>General Enquiry</item>
+        <item>Others</item>
+    </string-array>
+</resources>

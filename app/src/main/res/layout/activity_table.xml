@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/developer"
+    android:orientation="vertical"
+    tools:context=".TableActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="#AA000000"
+        app:srcCompat="@drawable/kavikcolor" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAFFFFFF"
+        android:fontFamily="@font/spicy_rice"
+        android:text="Reservation"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Enter the Date"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/etTime"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Enter Time"
+                android:inputType="time" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvtblno"
+                    android:layout_width="179dp"
+                    android:layout_height="match_parent"
+                    android:background="#AAFFFFFF"
+                    android:gravity="left|center"
+                    android:text="Number of Persons"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/tblSpinner"
+                    android:layout_width="123dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#AAFFFFFF"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/spinnerItems" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Your Name *"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Your Phone Number*"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Your E-mail*"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etSpinstruction"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#AAFFFFFF"
+                android:ems="10"
+                android:hint="Special Instruction"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D3D3D3"
+                android:text="Book"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
